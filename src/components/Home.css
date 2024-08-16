@@ -1,0 +1,210 @@
+.navbar {
+  background-color: white;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  padding-left: 120px;
+  overflow: hidden;
+}
+.navbar img {
+  height: 50px;
+  width: 220px;
+}
+.navbar-center {
+  align-items: first baseline;
+}
+#push {
+  margin-left: 80cap;
+}
+#loginpage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40cap;
+  min-height: 40cap;
+  background-color: #fff;
+  height: 110px;
+  border-radius: 30px;
+  box-shadow: 10cap;
+}
+#tag {
+  position: absolute;
+  transform: translate(10%, -130%);
+  font-style: italic;
+  font-size: 20px;
+  background-color: #fff;
+  text-shadow: 2px 2px 4px rgba(87, 76, 76, 0.7);
+  pointer-events: none;
+}
+a {
+  text-decoration: none;
+  font-size: xx-large;
+}
+/* footer {
+  background-color: grey;
+  height: 4000px;
+} */
+.cities {
+  height: 900px;
+  padding-left: 200px;
+  align-content: space-evenly;
+  padding-right: 200px;
+}
+.box {
+  width: 80px;
+  height: 40px;
+  transition: background-color 1s ease;
+  border: solid rgb(215, 16, 179);
+  border-radius: 10%;
+  align-self: center;
+  background-color: inherit;
+}
+.rightnav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.box:hover {
+  /* Change to whatever color you prefer */
+  background-color: rgb(215, 16, 179);
+}
+.box2 {
+  width: 80px;
+  height: 40px;
+  border: solid rgb(215, 16, 179);
+  border-radius: 10%;
+  background-color: inherit;
+  align-self: center;
+
+  /* -webkit-transition: background-color 2s ease-out; */
+  /* -moz-transition: background-color 2s ease-out; */
+  /* -o-transition: background-color 2s ease-out; */
+  transition: background-color 1s ease-out;
+}
+.box2:hover {
+  background-color: rgb(215, 16, 179);
+  /*border: 5px solid rgb(215, 16, 179);*/
+}
+input {
+  width: 30pc;
+  height: 50px;
+  size-adjust: center;
+}
+
+.container {
+  text-align: center;
+  padding: 50px 0;
+  background-image: url(../Assets/mainpic.webp);
+  background-size: 60% 110%;
+  background-position: 110% 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.container p {
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #333;
+  margin-top: 250px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  margin-right: 800px;
+}
+
+.inputcover {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.input-box {
+  width: 300px;
+  padding: 15px;
+  border: 2px solid palevioletred;
+  border-radius: 50px 0 0 50px;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.input-box:focus {
+  border-color: #ffb6c1; /* Lighter shade of palevioletred */
+  box-shadow: 0 0 10px rgba(219, 112, 147, 0.5);
+}
+
+.find-button {
+  padding: 15px 25px;
+  background-color: palevioletred;
+  border: 2px solid palevioletred;
+  border-radius: 0 50px 50px 0;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.find-button:hover {
+  background-color: #ffb6c1;
+  border-color: #ffb6c1;
+}
+
+.find-button:active {
+  transform: scale(0.95);
+}
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h2{
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.cities img {
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.cities img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#tag {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: rgba(219, 112, 147, 0.8); /* Semi-transparent palevioletred */
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+  gap: 40px;
+}
+
+.grid-item {
+  position: relative;
+  height: 220px;
+  width: 220px;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: #f8f8f8;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.grid-item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

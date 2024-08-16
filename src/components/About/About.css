@@ -1,0 +1,114 @@
+.about-container {
+    padding: 50px;
+    max-width: 1100px;
+    margin: 40px auto;
+    background: linear-gradient(135deg, #ffffff 0%, #f2f2f2 100%);
+    border-radius: 20px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.about-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.about-title {
+    font-size: 3.2rem;
+    color: palevioletred;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.about-title::after {
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: palevioletred;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.about-content {
+    font-family: 'Georgia', serif;
+    color: #444;
+    line-height: 1.8;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.about-description {
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #555;
+    font-style: italic;
+}
+
+.highlight {
+    color: palevioletred;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.about-section {
+    margin-top: 40px;
+}
+
+.about-section h2 {
+    font-size: 2.2rem;
+    color: #262626;
+    margin-bottom: 20px;
+    border-bottom: 3px solid palevioletred;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+    position: relative;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.about-section h2:hover {
+    color: palevioletred;
+    border-color: #db7093;
+}
+
+.values-list, .team-list {
+    margin: 25px 0;
+    padding-left: 30px;
+    list-style: disc;
+}
+
+.values-list li, .team-list li {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.values-list li::marker, .team-list li::marker {
+    color: palevioletred;
+}
+
+.values-list li strong, .team-list li strong {
+    color: palevioletred;
+}
+
+.values-list li:hover, .team-list li:hover {
+    color: #333;
+}
+
+.about-section p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.about-section p:hover {
+    color: #555;
+}

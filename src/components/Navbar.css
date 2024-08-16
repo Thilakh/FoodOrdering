@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    padding: 10px 20px;
+    color:palevioletred;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for elevation */
+    position: fixed; /* Makes the navbar stay at the top */
+    width: 97.5%; /* Ensures the navbar spans the full width */
+    top: 0; 
+    z-index: 100; 
+}
+
+/* .logo img {
+    height: 40px;
+} */
+
+.nav-links {
+    padding-left: 60px;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    color: palevioletred;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav-links button {
+    color: palevioletred;
+    background-color: white;
+    border: none;
+}
+
+.auth-links {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.auth-links a{
+    color: palevioletred;
+    text-decoration: none;
+    font-size: 16px;
+}
+.auth-links button{
+    background-color: white;
+    color: palevioletred;
+    border: none;
+}
+
+.profile-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-dropdown button {
+    background-color:white;
+    color: palevioletred;
+    border: none;
+    cursor: pointer;
+}
+.profile-btn{
+    color: palevioletred;
+}
+.profile-dropdown .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: white;
+    color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.profile-dropdown .dropdown-content a {
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.profile-dropdown .dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.profile-dropdown:hover .dropdown-content {
+    display: block;
+}

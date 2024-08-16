@@ -1,0 +1,14 @@
+body{
+   padding-top: 100px;
+}
+.menu-spacing{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   column-gap: 5px;
+   padding-left: 200px;
+   padding-right: 200px;
+   row-gap: 40px;
+}
+.menu{
+   padding-left: 20px;
+}
